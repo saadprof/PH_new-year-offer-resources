@@ -73,20 +73,51 @@ body {
     padding: 3rem;
     color: #ffffff;
 }
-#main #midnight-party h1{
+#main #midnight-party h1 {
     font-size: 5rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
 }
-#main #midnight-party p{
-    color: rgba(255,255,255,0.8);
+#main #midnight-party p {
+    color: rgba(255, 255, 255, 0.8);
     margin: 1rem 0;
     line-height: 1.5rem;
 }
-#main #midnight-party button{
-    padding: 15px 30px;
+#main #midnight-party button {
+    padding: 1rem 2rem;
     font-size: 1rem;
     color: #ffffff;
     background-color: transparent;
     cursor: pointer;
     border-radius: 6px;
+}
+#main #midnight-party > img {
+    width: 50%;
+}
+
+#main #place-time {
+    margin: 4rem 0;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 30, 30, 0.2),
+        rgba(255, 255, 255)
+    );
+    height: 8rem;
+    padding: 8rem;
+    border-radius: 10px;
+}
+#main #place-time p {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+#main #place-time #join-place-time {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ff0000;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+    margin-top: 2rem;
 }
