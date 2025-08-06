@@ -121,3 +121,29 @@ body {
 
     margin-top: 2rem;
 }
+
+#main #coming-soon{
+    margin: 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+#main #coming-soon div{
+    width: calc(50% - 2rem);
+}
+#main #coming-soon #bordered-image{
+    border: .6rem solid red;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 80%;
+}
+#main #coming-soon h3{
+    font-size: 2rem;
+}
+#main #coming-soon p{
+    color: rgba(0,0,0,0.7);
+    text-align: justify;
+    margin: .4rem 0;
+    line-height: 1.4rem;
+}
