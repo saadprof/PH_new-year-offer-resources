@@ -33,25 +33,60 @@ body {
     border-radius: 10px;
 }
 
-
-#main{
+#main {
     width: 80%;
     margin: 2rem auto;
 }
-#main #discount{
+#main #discount {
     margin: 3rem 0;
     text-align: center;
 }
-#main #discount h2{
+#main #discount h2 {
     font-size: 4rem;
 }
-#main #discount p{
-    margin: .8rem 0;
+#main #discount p {
+    margin: 0.8rem 0;
 }
-#main #discount h3{
+#main #discount h3 {
     font-size: 2rem;
 }
-#main #discount img{
-    margin: .8rem 0;
+#main #discount img {
+    margin: 0.8rem 0;
     max-width: 50%;
+}
+
+#main #midnight-party {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 50, 0.9),
+            rgba(0, 0, 50, 0.1)
+        ),
+        url("images/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 3rem;
+    color: #ffffff;
+}
+#main #midnight-party h1{
+    font-size: 5rem;
+    letter-spacing: .2rem;
+}
+#main #midnight-party p{
+    color: rgba(255,255,255,0.8);
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+#main #midnight-party button{
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 6px;
 }
