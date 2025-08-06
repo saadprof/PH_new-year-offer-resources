@@ -32,3 +32,26 @@ body {
     font-size: 2rem;
     border-radius: 10px;
 }
+
+
+#main{
+    width: 80%;
+    margin: 2rem auto;
+}
+#main #discount{
+    margin: 3rem 0;
+    text-align: center;
+}
+#main #discount h2{
+    font-size: 4rem;
+}
+#main #discount p{
+    margin: .8rem 0;
+}
+#main #discount h3{
+    font-size: 2rem;
+}
+#main #discount img{
+    margin: .8rem 0;
+    max-width: 50%;
+}
