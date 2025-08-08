@@ -5,6 +5,11 @@
 .red {
     color: #ff0000;
 }
+.common-paragraph {
+        color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
 body {
     font-family: "Inter", sans-serif;
 }
@@ -122,28 +127,54 @@ body {
     margin-top: 2rem;
 }
 
-#main #coming-soon{
+#main #coming-soon {
     margin: 6rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
 }
-#main #coming-soon div{
+#main #coming-soon div {
     width: calc(50% - 2rem);
 }
-#main #coming-soon #bordered-image{
-    border: .6rem solid red;
+#main #coming-soon #bordered-image {
+    border: 0.6rem solid red;
     border-radius: 50%;
     padding: 1rem;
     width: 80%;
 }
-#main #coming-soon h3{
+#main #coming-soon h3 {
     font-size: 2rem;
 }
-#main #coming-soon p{
-    color: rgba(0,0,0,0.7);
+#main #coming-soon p {
+    color: rgba(0, 0, 0, 0.7);
     text-align: justify;
-    margin: .4rem 0;
+    margin: 0.4rem 0;
     line-height: 1.4rem;
+}
+
+#main #holiday-sale {
+    text-align: center;
+}
+#main #holiday-sale h1 {
+    font-size: 4rem;
+}
+#main #holiday-sale #image-container{
+    position: relative;
+    top: -10rem;
+}
+#main #holiday-sale .gift-box{
+    width: 40%;
+    position: relative;
+    bottom: -15rem;
+    left: -100px;
+}
+#main #holiday-sale .discount-50{
+    position: relative;
+    right: -8rem;
+    width: 20%;
+}
+#main #holiday-sale .red-rectangle{
+    border-radius: 8px;
+    width: 100%;
 }
