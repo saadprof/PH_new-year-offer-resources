@@ -6,7 +6,7 @@
     color: #ff0000;
 }
 .common-paragraph {
-        color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
     margin: 1rem 0;
     line-height: 1.5rem;
 }
@@ -159,38 +159,75 @@ body {
 #main #holiday-sale h1 {
     font-size: 4rem;
 }
-#main #holiday-sale #image-container{
+#main #holiday-sale #image-container {
     position: relative;
     top: -10rem;
 }
-#main #holiday-sale .gift-box{
+#main #holiday-sale .gift-box {
     width: 40%;
     position: relative;
     bottom: -15rem;
     left: -100px;
 }
-#main #holiday-sale .discount-50{
+#main #holiday-sale .discount-50 {
     position: relative;
     right: -8rem;
     width: 20%;
 }
-#main #holiday-sale .red-rectangle{
+#main #holiday-sale .red-rectangle {
     border-radius: 8px;
     width: 100%;
 }
 
-#main #best-gifts-portfolio h1{
+#main #best-gifts-portfolio h1 {
     font-size: 3rem;
 }
-#main #best-gifts-portfolio p{
+#main #best-gifts-portfolio p {
     width: 70%;
 }
-#main #best-gifts-portfolio #gift-image-container{
+#main #best-gifts-portfolio #gift-image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin: 1rem 0;
 }
-#main #best-gifts-portfolio #gift-image-container img{
+#main #best-gifts-portfolio #gift-image-container img {
     width: 100%;
+}
+
+#main #subscribe-newsletter {
+    text-align: center;
+    padding: 5rem;
+    background-color: rgba(255, 0, 0, 0.1);
+    margin: 5rem 0;
+}
+#main #subscribe-newsletter > div {
+    width: 60%;
+    margin: 0 auto;
+}
+#main #subscribe-newsletter h1 {
+    font-size: 2rem;
+}
+#main #subscribe-newsletter #input-container {
+    display: flex;
+}
+#main #subscribe-newsletter #input-email {
+    padding: 0.8rem 1.5rem;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 10px 0 0 10px;
+}
+#main #subscribe-newsletter .input-btn {
+    padding: 0.8rem 1.5rem;
+    width: 20%;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+/* To change border color on focus first remove the outline and add the border style in different properties, not in short 'border' property. */
+#main #subscribe-newsletter #input-container #input-email:focus {
+    outline: none;
+    border-color: rgba(255, 0, 0, 0.3);
 }
