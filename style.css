@@ -6,7 +6,7 @@
     color: #ff0000;
 }
 .common-paragraph {
-        color: rgba(0, 0, 0, 0.7);
+        color: rgba(0, 0, 0, 0.6);
     margin: 1rem 0;
     line-height: 1.5rem;
 }
@@ -176,5 +176,21 @@ body {
 }
 #main #holiday-sale .red-rectangle{
     border-radius: 8px;
+    width: 100%;
+}
+
+#main #best-gifts-portfolio h1{
+    font-size: 3rem;
+}
+#main #best-gifts-portfolio p{
+    width: 70%;
+}
+#main #best-gifts-portfolio #gift-image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem 0;
+}
+#main #best-gifts-portfolio #gift-image-container img{
     width: 100%;
 }
